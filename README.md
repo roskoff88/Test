@@ -22,11 +22,8 @@ git checkout master
 git reset --hard origin/master
 
 # Revert many commits in git
-1. 
-2. Com­mit
-3. Push
-
-git checkout -f CommitNumber -- . # Force check­out the com­mit that has the code you want your head to be at.
+git checkout -f CommitNumber -- . //Force check­out the com­mit that has the code you want your head to be at
 git status 
 git commit -m "your commit message"
 git push
+
